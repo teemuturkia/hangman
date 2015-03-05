@@ -2,7 +2,7 @@ angular.module('hangman')
   .directive('characterList', [function() {
     return {
       templateUrl: function(){
-        return 'templates/character-list-template.html';
+        return 'app/templates/character-list-template.html';
       }
     };
   }]);

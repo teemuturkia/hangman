@@ -8,7 +8,7 @@ angular.module('hangman')
       },
       controllerAs: 'ctrl',
       templateUrl: function(){
-        return 'templates/word-template.html';
+        return 'app/templates/word-template.html';
       }
     };
   }]);
