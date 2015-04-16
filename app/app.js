@@ -8,5 +8,5 @@ hangman.controller('HangmanController', ['$scope', '$window', 'CharacterListServ
 
   $scope.retry = function() {
     $window.location.reload();
-  }
+  };
 }]);
