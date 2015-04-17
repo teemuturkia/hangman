@@ -1,3 +1,5 @@
+'use strict';
+
 angular.module('hangman')
   .directive('word', ['WordService', function(WordService) {
     return {

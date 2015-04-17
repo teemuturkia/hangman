@@ -1,5 +1,7 @@
+'use strict';
+
 angular.module('hangman')
-  .directive('hangman', ['WordService', function(WordService) {
+  .directive('hangman', [function() {
     return {
       templateUrl: function(){
         return 'app/templates/hangman-template.html';
