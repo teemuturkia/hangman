@@ -1,3 +1,5 @@
+'use strict';
+
 angular.module('hangman').
   factory('CharacterListService', ['WordService', function(WordService) {
     var characters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];

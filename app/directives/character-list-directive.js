@@ -1,3 +1,5 @@
+'use strict';
+
 angular.module('hangman')
   .directive('characterList', [function() {
     return {

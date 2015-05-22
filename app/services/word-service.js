@@ -1,3 +1,5 @@
+'use strict';
+
 angular.module('hangman').
   factory('WordService', ['$http', function($http) {
     var _this = this;
